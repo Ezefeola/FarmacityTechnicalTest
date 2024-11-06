@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Technical-Tests\\Farmacity\\Farmacity.Solution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B31E1D5-2FB1-4A91-8F21-1B90DFDF6683}|Farmacity.Application\\Farmacity.Application.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\technical-tests\\farmacity\\farmacity.solution\\farmacity.application\\services\\classes\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B31E1D5-2FB1-4A91-8F21-1B90DFDF6683}|Farmacity.Application\\Farmacity.Application.csproj|solutionrelative:farmacity.application\\services\\classes\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78351D0E-F651-4753-BC29-02BE324EF4E4}|Farmacity.Api\\Farmacity.Api.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\technical-tests\\farmacity\\farmacity.solution\\farmacity.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78351D0E-F651-4753-BC29-02BE324EF4E4}|Farmacity.Api\\Farmacity.Api.csproj|solutionrelative:farmacity.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78351D0E-F651-4753-BC29-02BE324EF4E4}|Farmacity.Api\\Farmacity.Api.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\technical-tests\\farmacity\\farmacity.solution\\farmacity.api\\controllers\\codigobarracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78351D0E-F651-4753-BC29-02BE324EF4E4}|Farmacity.Api\\Farmacity.Api.csproj|solutionrelative:farmacity.api\\controllers\\codigobarracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Technical-Tests\\Farmacity\\Farmacity.Solution\\Farmacity.Api\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Farmacity.Api\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Technical-Tests\\Farmacity\\Farmacity.Solution\\Farmacity.Api\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Farmacity.Api\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:39:50.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CodigoBarraController.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Technical-Tests\\Farmacity\\Farmacity.Solution\\Farmacity.Api\\Controllers\\CodigoBarraController.cs",
+              "RelativeDocumentMoniker": "Farmacity.Api\\Controllers\\CodigoBarraController.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Technical-Tests\\Farmacity\\Farmacity.Solution\\Farmacity.Api\\Controllers\\CodigoBarraController.cs",
+              "RelativeToolTip": "Farmacity.Api\\Controllers\\CodigoBarraController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:39:45.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Technical-Tests\\Farmacity\\Farmacity.Solution\\Farmacity.Application\\Services\\Classes\\ProductoService.cs",
+              "RelativeDocumentMoniker": "Farmacity.Application\\Services\\Classes\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Technical-Tests\\Farmacity\\Farmacity.Solution\\Farmacity.Application\\Services\\Classes\\ProductoService.cs",
+              "RelativeToolTip": "Farmacity.Application\\Services\\Classes\\ProductoService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAApwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:37:40.225Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

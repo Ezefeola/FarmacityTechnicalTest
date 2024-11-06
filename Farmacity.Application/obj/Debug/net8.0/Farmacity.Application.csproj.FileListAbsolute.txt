@@ -12,6 +12,7 @@ C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\F
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Application\obj\Debug\net8.0\Farmacity.Application.AssemblyInfoInputs.cache
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Application\obj\Debug\net8.0\Farmacity.Application.AssemblyInfo.cs
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Application\obj\Debug\net8.0\Farmacity.Application.csproj.CoreCompileInputs.cache
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Application\obj\Debug\net8.0\Farmacity.Application.sourcelink.json
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Application\obj\Debug\net8.0\Farmacit.982422AB.Up2Date
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Application\obj\Debug\net8.0\Farmacity.Application.dll
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Application\obj\Debug\net8.0\refint\Farmacity.Application.dll
