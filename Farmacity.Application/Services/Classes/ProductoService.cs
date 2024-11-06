@@ -97,9 +97,11 @@ public class ProductoService : IProductoService
             if (productToDelete is null) return null!;
 
             productToDelete.Activo = false;
+            productToDelete.FechaModificacion = DateTime.Now;
             foreach (var codigoBarra in productToDelete.CodigosBarras)
             {
                 codigoBarra.Activo = false;
+                codigoBarra.FechaModificacion = DateTime.Now;
             }
             await _unitOfWork.Complete(cancellationToken);
             await transaction.CommitAsync(cancellationToken);
