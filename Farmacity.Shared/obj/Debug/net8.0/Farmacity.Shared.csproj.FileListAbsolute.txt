@@ -1,0 +1,11 @@
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\bin\Debug\net8.0\Farmacity.Shared.deps.json
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\bin\Debug\net8.0\Farmacity.Shared.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\bin\Debug\net8.0\Farmacity.Shared.pdb
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\Farmacity.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\Farmacity.Shared.AssemblyInfoInputs.cache
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\Farmacity.Shared.AssemblyInfo.cs
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\Farmacity.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\Farmacity.Shared.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\refint\Farmacity.Shared.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\Farmacity.Shared.pdb
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Shared\obj\Debug\net8.0\ref\Farmacity.Shared.dll

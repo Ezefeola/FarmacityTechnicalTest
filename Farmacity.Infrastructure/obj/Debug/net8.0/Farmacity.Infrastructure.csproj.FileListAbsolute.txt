@@ -1,0 +1,17 @@
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\bin\Debug\net8.0\Farmacity.Infrastructure.deps.json
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\bin\Debug\net8.0\Farmacity.Infrastructure.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\bin\Debug\net8.0\Farmacity.Infrastructure.pdb
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\bin\Debug\net8.0\Farmacity.Domain.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\bin\Debug\net8.0\Farmacity.Shared.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\bin\Debug\net8.0\Farmacity.Domain.pdb
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\bin\Debug\net8.0\Farmacity.Shared.pdb
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacity.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacity.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacity.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacity.Infrastructure.AssemblyInfo.cs
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacity.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacit.2D315B80.Up2Date
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacity.Infrastructure.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\refint\Farmacity.Infrastructure.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\Farmacity.Infrastructure.pdb
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Technical-Tests\Farmacity\Farmacity.Solution\Farmacity.Infrastructure\obj\Debug\net8.0\ref\Farmacity.Infrastructure.dll

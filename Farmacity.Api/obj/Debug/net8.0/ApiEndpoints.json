@@ -1,0 +1,202 @@
+[
+  {
+    "ContainingType": "Farmacity.Api.Controllers.CodigoBarraController",
+    "Method": "Create",
+    "RelativePath": "api/CodigoBarra/create/{productId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "codigoBarraCreateRequestDto",
+        "Type": "Farmacity.Shared.DTOs.Request.CodigoBarra.CodigoBarraCreateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.CodigoBarraController",
+    "Method": "Delete",
+    "RelativePath": "api/CodigoBarra/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.CodigoBarraController",
+    "Method": "GetAll",
+    "RelativePath": "api/CodigoBarra/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.CodigoBarraController",
+    "Method": "GetById",
+    "RelativePath": "api/CodigoBarra/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.CodigoBarraController",
+    "Method": "Update",
+    "RelativePath": "api/CodigoBarra/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productoUpdateRequestDto",
+        "Type": "Farmacity.Shared.DTOs.Request.CodigoBarra.CodigoBarraUpdateRequestDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.ProductoController",
+    "Method": "Create",
+    "RelativePath": "api/Producto/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoCreateRequestDto",
+        "Type": "Farmacity.Shared.DTOs.Request.Producto.ProductoCreateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.ProductoController",
+    "Method": "Delete",
+    "RelativePath": "api/Producto/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.ProductoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Producto/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.ProductoController",
+    "Method": "GetById",
+    "RelativePath": "api/Producto/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farmacity.Api.Controllers.ProductoController",
+    "Method": "Update",
+    "RelativePath": "api/Producto/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productoUpdateRequestDto",
+        "Type": "Farmacity.Shared.DTOs.Request.Producto.ProductoUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
