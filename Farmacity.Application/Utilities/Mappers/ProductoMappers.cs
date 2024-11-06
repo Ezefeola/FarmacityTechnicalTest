@@ -52,7 +52,8 @@ public static class ProductoMappers
             {
                 ProductoId = producto.Id,   
                 Codigo = cb.Codigo,
-                Activo = cb.Activo
+                Activo = cb.Activo,
+                FechaModificacion = cb.FechaModificacion,
             }).ToList()
         };
     }
@@ -90,7 +91,8 @@ public static class ProductoMappers
             {
                 ProductoId = producto.Id,
                 Codigo = cb.Codigo,
-                Activo = cb.Activo
+                Activo = cb.Activo,
+                FechaModificacion = cb.FechaModificacion,
             }).ToList()
         };
     }
