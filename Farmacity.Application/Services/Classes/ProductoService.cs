@@ -5,6 +5,7 @@ using Farmacity.Infrastructure.UnitOfWork;
 using Farmacity.Shared.DTOs.PaginationDtos;
 using Farmacity.Shared.DTOs.Request.Producto;
 using Farmacity.Shared.DTOs.Response.Producto;
+using System.Data;
 
 namespace Farmacity.Application.Services.Classes;
 
@@ -20,6 +21,17 @@ public class ProductoService : IProductoService
     public async Task<List<ProductoResponseDto>> GetAllProducts(PaginationDto paginationDto)
     {
         List<Producto> productsInDb = await _unitOfWork.ProductoRepository.GetAllWithPagination(paginationDto);
+
+        List<ProductoResponseDto> productsInDbResponseDto = productsInDb
+            .Select(ProductoMappers.MapToResponseDto)
+            .ToList();
+
+        return productsInDbResponseDto;
+    }
+
+    public async Task<List<ProductoResponseDto>> GetAllProductsByStatus(PaginationDto paginationDto, bool? isActive)
+    {
+        List<Producto> productsInDb = await _unitOfWork.ProductoRepository.GetProductsByStatus(paginationDto, isActive);
 
         List<ProductoResponseDto> productsInDbResponseDto = productsInDb
             .Select(ProductoMappers.MapToResponseDto)
@@ -73,5 +85,64 @@ public class ProductoService : IProductoService
         ProductoResponseDto deletedProductResponseDto = productToDelete.MapToResponseDto();
 
         return deletedProductResponseDto;
+    }
+
+    public async Task<ProductoResponseDto> SoftDeleteProduct(int id, CancellationToken cancellationToken)
+    {
+        using var transaction = await _unitOfWork.BeginTransaction(cancellationToken);
+
+        try
+        {
+            Producto productToDelete = await _unitOfWork.ProductoRepository.GetById(id);
+            if (productToDelete is null) return null!;
+
+            productToDelete.Activo = false;
+            foreach (var codigoBarra in productToDelete.CodigosBarras)
+            {
+                codigoBarra.Activo = false;
+            }
+            await _unitOfWork.Complete(cancellationToken);
+            await transaction.CommitAsync(cancellationToken);
+
+            ProductoResponseDto deletedProductResponseDto = productToDelete.MapToResponseDto();
+
+            return deletedProductResponseDto;
+        }
+        catch (Exception)
+        {
+
+            await transaction.RollbackAsync(cancellationToken);
+            throw;
+        }
+    }
+
+    public async Task<ProductoResponseDto> RevertSoftDeletedProduct(int id, CancellationToken cancellationToken)
+    {
+        using var transaction = await _unitOfWork.BeginTransaction(cancellationToken);
+
+        try
+        {
+            Producto productToDelete = await _unitOfWork.ProductoRepository.GetByIdWithoutFilters(id);
+            if (productToDelete is null) return null!;
+            if (productToDelete.Activo is true) return null!;
+
+            productToDelete.Activo = true;
+            foreach (var codigoBarra in productToDelete.CodigosBarras)
+            {
+                codigoBarra.Activo = true;
+            }
+            await _unitOfWork.Complete(cancellationToken);
+            await transaction.CommitAsync(cancellationToken);
+
+            ProductoResponseDto deletedProductResponseDto = productToDelete.MapToResponseDto();
+
+            return deletedProductResponseDto;
+        }
+        catch (Exception)
+        {
+
+            await transaction.RollbackAsync(cancellationToken);
+            throw;
+        }
     }
 }

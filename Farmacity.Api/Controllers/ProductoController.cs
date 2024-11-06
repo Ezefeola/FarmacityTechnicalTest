@@ -17,6 +17,13 @@ public class ProductoController : ControllerBase
         _productoService = productoService;
     }
 
+    [HttpGet("getAllByStatus")]
+    public async Task<IActionResult> GetAll([FromQuery] PaginationDto paginationDto, bool? isActive)
+    {
+        List<ProductoResponseDto> obtainedProductsResponse = await _productoService.GetAllProductsByStatus(paginationDto, isActive);
+        return Ok(obtainedProductsResponse);
+    }
+
     [HttpGet("getAll")]
     public async Task<IActionResult> GetAll([FromQuery] PaginationDto paginationDto)
     {
@@ -75,6 +82,40 @@ public class ProductoController : ControllerBase
         {
 
             return BadRequest("No se pudo actualizar el registro.");
+        }
+    }
+
+    [HttpPut("softDelete/{id:int}")]
+    public async Task<IActionResult> SoftDelete(int id, CancellationToken cancellationToken)
+    {
+        try
+        {
+            ProductoResponseDto deletedProduct = await _productoService.SoftDeleteProduct(id, cancellationToken);
+
+            if (deletedProduct is null) return NotFound($"No se encontro el producto con id: {id} para eliminar.");
+
+            return Ok(deletedProduct);
+        }
+        catch (Exception)
+        {
+            return BadRequest("No se pudo eliminar el registro");
+        }
+    }
+
+    [HttpPut("revertSoftDelete/{id:int}")]
+    public async Task<IActionResult> RevertSoftDelete(int id, CancellationToken cancellationToken)
+    {
+        try
+        {
+            ProductoResponseDto deletedProduct = await _productoService.RevertSoftDeletedProduct(id, cancellationToken);
+
+            if (deletedProduct is null) return NotFound($"No se encontro el producto con id: {id} para habilitar o ya esta activo.");
+
+            return Ok(deletedProduct);
+        }
+        catch (Exception)
+        {
+            return BadRequest("No se pudo habilitar el registro");
         }
     }
 

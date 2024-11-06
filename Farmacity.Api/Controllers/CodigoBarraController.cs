@@ -24,9 +24,9 @@ public class CodigoBarraController : ControllerBase
     }
 
     [HttpGet("getAll")]
-    public async Task<IActionResult> GetAll([FromQuery] PaginationDto paginationDto)
+    public async Task<IActionResult> GetAll([FromQuery] PaginationDto paginationDto, bool? isActive)
     {
-        List<CodigoBarraResponseDto> obtainedCodeBarsResponse = await _codigoBarraService.GetAllCodeBars(paginationDto);
+        List<CodigoBarraResponseDto> obtainedCodeBarsResponse = await _codigoBarraService.GetAllCodeBars(paginationDto, isActive);
         return Ok(obtainedCodeBarsResponse);
     }
 

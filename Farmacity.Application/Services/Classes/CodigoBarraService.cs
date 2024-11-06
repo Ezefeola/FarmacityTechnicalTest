@@ -17,9 +17,9 @@ public class CodigoBarraService : ICodigoBarraService
         _unitOfWork = unitOfWork;
     }
 
-    public async Task<List<CodigoBarraResponseDto>> GetAllCodeBars(PaginationDto paginationDto)
+    public async Task<List<CodigoBarraResponseDto>> GetAllCodeBars(PaginationDto paginationDto, bool? isActive)
     {
-        List<CodigoBarra> codebarsInDb = await _unitOfWork.CodigoBarraRepository.GetAllWithPagination(paginationDto);
+        List<CodigoBarra> codebarsInDb = await _unitOfWork.CodigoBarraRepository.GetCodeBarsWithFilters(paginationDto, isActive);
 
         List<CodigoBarraResponseDto> codebarsInDbResponseDto = codebarsInDb
             .Select(CodigoBarraMappers.MapToResponseDto)
@@ -55,7 +55,7 @@ public class CodigoBarraService : ICodigoBarraService
 
     public async Task<CodigoBarraUpdateResponseDto> UpdateCodeBar(int id, CodigoBarraUpdateRequestDto codigoBarraUpdateRequestDto, CancellationToken cancellationToken)
     {
-        CodigoBarra codeBarToUpdate = await _unitOfWork.CodigoBarraRepository.GetById(id);
+        CodigoBarra codeBarToUpdate = await _unitOfWork.CodigoBarraRepository.GetByIdWithoutFilters(id);
         
         CodigoBarraMappers.MapToModel(codigoBarraUpdateRequestDto, codeBarToUpdate);
 

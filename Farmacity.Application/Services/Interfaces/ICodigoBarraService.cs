@@ -6,7 +6,7 @@ namespace Farmacity.Application.Services.Interfaces
 {
     public interface ICodigoBarraService
     {
-        Task<List<CodigoBarraResponseDto>> GetAllCodeBars(PaginationDto paginationDto);
+        Task<List<CodigoBarraResponseDto>> GetAllCodeBars(PaginationDto paginationDto, bool? isActive);
         Task<List<CodigoBarraResponseDto>> GetCodeBarsByIdAsync(int id);
         Task<CodigoBarraCreateResponseDto> CreateCodeBar(int productId, CodigoBarraCreateRequestDto codigoBarraCreateRequestDto, CancellationToken cancellationToken);
         Task<CodigoBarraUpdateResponseDto> UpdateCodeBar(int id, CodigoBarraUpdateRequestDto codigoBarraUpdateRequestDto, CancellationToken cancellationToken);
